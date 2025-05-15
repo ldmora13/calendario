@@ -27,7 +27,9 @@
 	<modules>
 		<module>dominio</module>
 		<module>core</module>
-        <module>infraestrucura</module>
-    </modules>
+        <module>infraestructura</module>
+		<module>presentacion</module>
+		<module>aplicacion</module>
+	</modules>
 
 </project>
