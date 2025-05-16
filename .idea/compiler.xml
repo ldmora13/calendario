@@ -6,19 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="presentacion" />
-        <module name="core" />
-        <module name="aplicacion" />
+        <module name="calendario" />
         <module name="infraestrucura" />
-        <module name="infraestructura" />
-        <module name="dominio" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aplicacion" target="17" />
+      <module name="core" target="17" />
+      <module name="dominio" target="17" />
+      <module name="infraestructura" target="17" />
+      <module name="presentacion" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="aplicacion" options="-parameters" />
-      <module name="calendario" options="" />
+      <module name="calendario" options="-parameters" />
       <module name="core" options="-parameters" />
       <module name="dominio" options="-parameters" />
       <module name="infraestructura" options="-parameters" />
